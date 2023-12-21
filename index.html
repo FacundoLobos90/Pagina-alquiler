@@ -10,33 +10,44 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <div class="container1">               
-                    <li><a href="index.html">Inicio</a></li>
+        <div class="titulo">
+            <h2>HOTELES PINDONGA</h2>
+        </div>
+        <div class="menu">
+            <select name="selector_menu" id="selector_menu" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+              <option value="menu">Menu</option>
+              <option value="index.html">Inicio</option>
+              <option value="Fotos.html">Fotos</option>
+              <option value="Ubicacion.html">Ubicación</option>
+            </select>
+          </div>
+        
+            <section class="nav">
+                <div class="container">               
+                    <a href="index.html">Inicio</a>
                 </div>
                 <div class="container">
-                    <li class="itemsNav"><a href="Fotos.html">Fotos</a></li>
+                    <a href="Fotos.html">Fotos</a>
                 </div>
                 <div class="container">
-                    <li class="itemsNav"><a href="Ubicacion.html">Ubicacion</a></li>
+                    <a href="Ubicacion.html">Ubicacion</a>
                 </div>             
-            </ul>
-        </nav>
+            </section>
+        
     </header>
     <main>
-        <section class="seccionMain" id="">
-            <ul>
+        
+            
                 <div class="contenedorImagen">
-                    <img src="./imagenes/dbb15510-13ce-468b-adcf-75954c5447ff.jpg" alt="" width="150" height="150">                   
+                    <img src="./imagenes/dbb15510-13ce-468b-adcf-75954c5447ff.jpg" alt="" width="100" height="100">                   
                 </div>
-                <div class="textoBienvenida">
+                <div class="contenedorFotos">
                     <p>¡¡Bienvenido a tu escapada en Villa Gesell! Descubre la auténtica experiencia costera al hospedarte en nuestros alquileres cuidadosamente seleccionados por sus propios dueños. Aquí, no solo encontrarás un lugar para descansar, sino un hogar donde crear recuerdos duraderos.
                         <br>Sumergete en la tranquilidad de tu propio espacio, lejos de las multitudes y cerca de la auténtica esencia de Villa Gesell. Cada propiedad refleja el encanto único de sus dueños, ofreciendo un toque personal y la comodidad de un verdadero hogar. Explora las joyas locales con la confianza de regresar a tu refugio personal al final del día.
                         Estamos emocionados de tenerte aquí y comprometidos a hacer que tu estancia sea lo más acogedora posible. ¡Disfruta de tu tiempo en Villa Gesell como un verdadero residente!</p>
                 </div>
-            </ul>
-        </section>
+            
+                <div class="espacioFooter"></div>
     </main>
     <footer class="">
         <div class="cajaFooter">
